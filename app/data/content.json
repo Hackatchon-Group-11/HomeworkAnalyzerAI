@@ -1,0 +1,271 @@
+[
+  {
+    "konu": "Hücre Bölünmesi",
+    "etiketler": ["mitoz", "mayoz", "DNA"],
+    "kaynak_link": "https://www.youtube.com/watch?v=i034SKP2iTU",
+    "tip": "video"
+  },
+  {
+    "konu": "DNA ve Genetik Kod",
+    "etiketler": ["DNA", "gen", "nükleotid"],
+    "kaynak_link": "https://www.youtube.com/watch?v=vVPUAeF-0Rw",
+    "tip": "video"
+  },
+  {
+    "konu": "Fotosentez ve Solunum",
+    "etiketler": ["fotosentez", "solunum", "ATP"],
+    "kaynak_link": "https://www.youtube.com/watch?v=tzc6BzWh6hw",
+    "tip": "video"
+  },
+  {
+    "konu": "Canlıların Sınıflandırılması",
+    "etiketler": ["taksonomi", "alem", "tür"],
+    "kaynak_link": "https://www.youtube.com/watch?v=B7nQTdVn8tQ",
+    "tip": "video"
+  },
+  {
+    "konu": "Ekosistem ve Madde Döngüleri",
+    "etiketler": ["ekosistem", "karbon döngüsü", "azot döngüsü"],
+    "kaynak_link": "https://www.youtube.com/watch?v=hSpNFREuJwo",
+    "tip": "video"
+  },
+
+  {
+    "konu": "Hücre Bölünmesi",
+    "etiketler": ["mitoz", "mayoz", "DNA"],
+    "kaynak_link": "https://ayancikanadolu.meb.k12.tr/meb_iys_dosyalar/57/02/325814/dosyalar/2021_01/31214813_HUCRE_BOLUNMELERY.pdf",
+    "tip": "pdf"
+  },
+  {
+    "konu": "DNA ve Genetik Kod",
+    "etiketler": ["DNA", "gen", "nükleotid"],
+    "kaynak_link": "https://kagithaneataturkort.meb.k12.tr/meb_iys_dosyalar/34/13/741467/dosyalar/2019_12/30105638_2._Unite_DNA_VE_GENETYK_KOD.pdf",
+    "tip": "pdf"
+  },
+  {
+    "konu": "Fotosentez ve Solunum",
+    "etiketler": ["fotosentez", "solunum", "ATP"],
+    "kaynak_link": "https://www.biyolojiportali.com/yenimufredat/pdf/4.%20Fotosentez%20ve%20solunum%20ili%C5%9Fkisi.pdf",
+    "tip": "pdf"
+  },
+  {
+    "konu": "Canlıların Sınıflandırılması",
+    "etiketler": ["taksonomi", "alem", "tür"],
+    "kaynak_link": "https://ayancikanadolu.meb.k12.tr/meb_iys_dosyalar/57/02/325814/dosyalar/2020_03/06141548_canlilarin_siniflandirilmasY.pdf",
+    "tip": "pdf"
+  },
+  {
+    "konu": "Ekosistem ve Madde Döngüleri",
+    "etiketler": ["ekosistem", "karbon döngüsü", "azot döngüsü"],
+    "kaynak_link": "https://www.tekinerhoca.com/FileUpload/ks277088/File/ekosistem_madde_dong.pdf",
+    "tip": "pdf"
+  },
+   {
+    "konu": "Fizik Bilimine Giriş",
+    "etiketler": ["fizik", "bilim", "giriş"],
+    "kaynak_link": "https://www.youtube.com/watch?v=7FqrbLt2Igw",
+    "tip": "video"
+  },
+  {
+    "konu": "Kuvvet ve Hareket",
+    "etiketler": ["kuvvet", "hareket", "dinamik"],
+    "kaynak_link": "https://www.youtube.com/watch?v=nOw8Sr61BNk",
+    "tip": "video"
+  }, {
+    "konu": "Optik - Dört Dörtlük Konu Pekiştirme Testleri",
+    "etiketler": ["optik", "ışık", "yansıma"],
+    "kaynak_link": "https://www.youtube.com/watch?v=ssN83hQglIU",
+    "tip": "video"
+  },
+  {
+    "konu": "Basınç - MEB Kazanım Kavrama Testi Çözümü",
+    "etiketler": ["basınç", "katı basıncı", "test çözümü"],
+    "kaynak_link": "https://rutube.ru/video/67f2fe06d387019cda42e43aad75b7d4/",
+    "tip": "video"
+  },
+  {
+    "konu": "Elektrik Akımı - Ders Anlatımı",
+    "etiketler": ["elektrik akımı", "direnç", "potansiyel farkı"],
+    "kaynak_link": "https://www.youtube.com/watch?v=7FqrbLt2Igw",
+    "tip": "video"
+  },
+  {
+    "konu": "Dalgalar - Yay Dalgaları ve Yansıma",
+    "etiketler": ["dalgalar", "yay dalgaları", "yansıma"],
+    "kaynak_link": "https://www.youtube.com/watch?v=nOw8Sr61BNk",
+    "tip": "video"
+  },
+  {
+    "konu": "Elektrik ve Manyetizma - Konu Anlatımı",
+    "etiketler": ["elektrik", "manyetizma", "manyetik alan"],
+    "kaynak_link": "https://www.youtube.com/watch?v=d1oss4nnoE4",
+    "tip": "video"
+  },
+   {
+    "konu": "Fizik Bilimine Giriş",
+    "etiketler": ["fizik", "bilim", "giriş"],
+    "kaynak_link": "https://www.meb.gov.tr/meb_iys_dosyalar/2021_09/30123456_9_sinif_fizik_konu_anlatimi.pdf",
+    "tip": "pdf"
+  },
+  {
+    "konu": "Kuvvet ve Hareket",
+    "etiketler": ["kuvvet", "hareket", "dinamik"],
+    "kaynak_link": "https://www.meb.gov.tr/meb_iys_dosyalar/2021_09/30123457_9_sinif_fizik_kuvvet_ve_hareket.pdf",
+    "tip": "pdf"
+  },{
+    "konu": "Elektrik Akımı ve Direnç",
+    "etiketler": ["elektrik akımı", "direnç", "potansiyel farkı"],
+    "kaynak_link": "https://ogmmateryal.eba.gov.tr/ders-sunu?d=4&k=0&kod=fizik&s=7&u=0",
+    "tip": "pdf"
+  },
+  {
+    "konu": "Dalgalar ve Yay Dalgaları",
+    "etiketler": ["dalgalar", "yay dalgaları", "atma"],
+    "kaynak_link": "https://ogmmateryal.eba.gov.tr/ders-sunu?d=33&k=0&kod=fizik&s=7&u=146",
+    "tip": "pdf"
+  },
+  {
+    "konu": "Optik ve Işığın Yansıması",
+    "etiketler": ["optik", "ışık", "yansıma"],
+    "kaynak_link": "https://ogmmateryal.eba.gov.tr/panel/panel/EKitapUniteOnizle.aspx?Id=222",
+    "tip": "pdf"
+  },
+  {
+    "konu": "Basınç ve Katı Basıncı",
+    "etiketler": ["basınç", "katı basıncı", "kuvvet"],
+    "kaynak_link": "https://ogmmateryal.eba.gov.tr/icerik-goster/168455",
+    "tip": "pdf"
+  },
+  {
+    "konu": "Elektrik ve Manyetizma",
+    "etiketler": ["elektrik", "manyetizma", "manyetik alan"],
+    "kaynak_link": "https://ogmmateryal.eba.gov.tr/etkilesimli-kitap/fizik?d=33&k=0&s=7&u=0",
+    "tip": "pdf"
+  },
+
+  {
+    "konu": "Kimya Bilimine Giriş",
+    "etiketler": ["kimya", "bilim", "simya"],
+    "kaynak_link": "https://www.paraksilen.com/pdf/kimya-bilimine-giris.pdf",
+    "tip": "pdf"
+  },
+  {
+    "konu": "Maddenin Halleri",
+    "etiketler": ["madde", "hal değişimi", "gaz"],
+    "kaynak_link": "https://www.paraksilen.com/pdf/maddenin-halleri.pdf",
+    "tip": "pdf"
+  },
+  {
+    "konu": "Kimyasal Tepkimeler",
+    "etiketler": ["reaksiyon", "ürün", "reaktant"],
+    "kaynak_link": "https://www.paraksilen.com/pdf/kimyasal-tepkimeler.pdf",
+    "tip": "pdf"
+  },
+  {
+    "konu": "Asitler ve Bazlar",
+    "etiketler": ["asit", "baz", "pH"],
+    "kaynak_link": "https://www.paraksilen.com/pdf/asitler-ve-bazlar.pdf",
+    "tip": "pdf"
+  },
+  {
+    "konu": "Organik Kimya",
+    "etiketler": ["organik", "hidrokarbon", "fonksiyonel grup"],
+    "kaynak_link": "https://www.paraksilen.com/pdf/organik-kimya.pdf",
+    "tip": "pdf"
+  },
+  {
+    "konu": "Kimya Bilimine Giriş",
+    "etiketler": ["kimya", "bilim", "simya"],
+    "kaynak_link": "https://www.youtube.com/watch?v=abcde12345",
+    "tip": "video"
+  },
+  {
+    "konu": "Maddenin Halleri",
+    "etiketler": ["madde", "hal değişimi", "gaz"],
+    "kaynak_link": "https://www.youtube.com/watch?v=fghij67890",
+    "tip": "video"
+  },
+  {
+    "konu": "Kimyasal Tepkimeler",
+    "etiketler": ["reaksiyon", "ürün", "reaktant"],
+    "kaynak_link": "https://www.youtube.com/watch?v=klmno13579",
+    "tip": "video"
+  },
+  {
+    "konu": "Asitler ve Bazlar",
+    "etiketler": ["asit", "baz", "pH"],
+    "kaynak_link": "https://www.youtube.com/watch?v=pqrst24680",
+    "tip": "video"
+  },
+  {
+    "konu": "Organik Kimya",
+    "etiketler": ["organik", "hidrokarbon", "fonksiyonel grup"],
+    "kaynak_link": "https://www.youtube.com/watch?v=uvwxy97531",
+    "tip": "video"
+  },
+   {
+    "konu": "Ses Bilgisi",
+    "etiketler": ["ünlü uyumu", "ünsüz benzeşmesi", "ses olayları"],
+    "kaynak_link": "https://www.edebiyatciyim.com/tyt-turkce-notlari-pdf/",
+    "tip": "pdf"
+  },
+  {
+    "konu": "Sözcükte Yapı",
+    "etiketler": ["kök", "yapım eki", "çekim eki"],
+    "kaynak_link": "https://www.edebiyatciyim.com/tyt-turkce-notlari-pdf/",
+    "tip": "pdf"
+  },
+  {
+    "konu": "Cümlede Anlam",
+    "etiketler": ["anlam ilişkileri", "cümle türleri", "olumlu-olumsuz cümle"],
+    "kaynak_link": "https://ogmmateryal.eba.gov.tr/kitap/mebi-konu-ozetleri/tyt-turkce/tyt-turkce.pdf",
+    "tip": "pdf"
+  },
+  {
+    "konu": "Yazım Kuralları",
+    "etiketler": ["bitişik yazım", "büyük harf kullanımı", "yazım hataları"],
+    "kaynak_link": "https://www.edebiyatciyim.com/tyt-turkce-notlari-pdf/",
+    "tip": "pdf"
+  },
+  {
+    "konu": "Noktalama İşaretleri",
+    "etiketler": ["nokta", "virgül", "ünlem"],
+    "kaynak_link": "https://www.edebiyatciyim.com/tyt-turkce-notlari-pdf/",
+    "tip": "pdf"
+  },
+  {
+    "konu": "Ses Bilgisi",
+    "etiketler": ["ünlü uyumu", "ünsüz benzeşmesi", "ses olayları"],
+    "kaynak_link": "https://www.youtube.com/watch?v=wcK9TUbIBgU",
+    "tip": "video"
+  },
+  {
+    "konu": "Sözcükte Yapı",
+    "etiketler": ["kök", "yapım eki", "çekim eki"],
+    "kaynak_link": "https://www.youtube.com/watch?v=Ez-r48jdWKw",
+    "tip": "video"
+  },
+  {
+    "konu": "Cümlede Anlam",
+    "etiketler": ["anlam ilişkileri", "cümle türleri", "olumlu-olumsuz cümle"],
+    "kaynak_link": "https://www.youtube.com/watch?v=x_-iwstofKs",
+    "tip": "video"
+  },
+  {
+    "konu": "Yazım Kuralları",
+    "etiketler": ["bitişik yazım", "büyük harf kullanımı", "yazım hataları"],
+    "kaynak_link": "https://www.youtube.com/watch?v=yljmdu2pdSI",
+    "tip": "video"
+  },
+  {
+    "konu": "Noktalama İşaretleri",
+    "etiketler": ["nokta", "virgül", "ünlem"],
+    "kaynak_link": "https://www.youtube.com/watch?v=3IGI0vzr2l0",
+    "tip": "video"
+  }
+]
+
+
+
+
+

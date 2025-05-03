@@ -1,6 +1,26 @@
 # Default ignored files
+# Python
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+.env
+*.env
+.env.*
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
 /shelf/
 /workspace.xml
-.env
 
-homeworkanalyzerai-8d7af821b879.json
+
+homeworkanalyzerai-*.json
+homeworkanalyzerai-69b933a265cf.json
