@@ -1,0 +1,6 @@
+Flask
+PyMuPDF
+google-cloud-aiplatform
+python-docx
+python-dotenv
+spacy
