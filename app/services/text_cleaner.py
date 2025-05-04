@@ -1,7 +1,8 @@
+# app/services/text_cleaner.py
 import re
 import spacy
 
-nlp = spacy.load("en_core_web_sm")
+nlp = spacy.load("xx_ent_wiki_sm")
 
 class TextCleaner:
     def clean(self, text: str) -> str:
@@ -12,4 +13,4 @@ class TextCleaner:
 
     def lemmatize(self, text: str) -> str:
         doc = nlp(text)
-        return " ".join([token.lemma_ for token in doc])
+        return " ".join(token.lemma_ for token in doc)

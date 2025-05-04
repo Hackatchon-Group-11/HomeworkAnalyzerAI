@@ -4,3 +4,7 @@ google-cloud-aiplatform
 python-docx
 python-dotenv
 spacy
+weasyprint
+markdown2
+language-tool-python
+flasgger

@@ -1,5 +1,5 @@
-from config import Config
 import json
+from config import Config
 
 class RecommendationEngine:
     def __init__(self):
@@ -7,6 +7,6 @@ class RecommendationEngine:
             self.content = json.load(f)
 
     def recommend(self, found_topics: list) -> list:
-        all_topics = [item["konu"] for item in self.content]
-        missing = set(all_topics) - set(found_topics)
+        all_topics = {item["konu"] for item in self.content}
+        missing = all_topics - set(found_topics)
         return [item for item in self.content if item["konu"] in missing]
