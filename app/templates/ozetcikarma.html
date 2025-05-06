@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Özet Çıkarma</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/ozet.css') }}">
+  <script src="{{ url_for('static', filename='js/base.js') }}"></script>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="logo">
+      <img src="{{ url_for('static', filename='images/logo1.png') }}" alt="Logo" />
+
+    </div>
+    <div class="nav-center">
+      <h1 class="nav-title">Özet Çıkarma</h1>
+    </div>
+  
+   
+      <a href="index.html">Anasayfa</a>
+
+  </header>
+
+  <main class="container">
+    <section class="left-panel">
+      <h2>Metin Yükle</h2>
+      <textarea rows="10" placeholder="Metni buraya yapıştırın..."></textarea>
+      <input type="file">
+      <button>Özetle</button>
+    </section>
+
+    <section class="right-panel">
+      <h2>Çıkarılan Özet</h2>
+      <div class="summary-box">
+        <p>Burada sistemin oluşturduğu özet metin gösterilecektir...</p>
+      </div>
+    </section>
+  </main>
+
+</body>
+</html>

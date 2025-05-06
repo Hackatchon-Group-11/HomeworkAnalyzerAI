@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+  <script src="{{ url_for('static', filename='js/base.js') }}"></script>
+  <title>Learnest</title>
+</head>
+<body>
+
+  <header class="header">
+    <a href="#" class="logo"><img src="{{ url_for('static', filename='images/logo1.png') }}" alt="logo" /></a>
+    <nav class="navbar">
+      <a href="#anasayfa">Ana Sayfa</a>
+      <a href="#sorucozumu">Soru Çözümü</a>
+      <a href="#akilliodevsistemi">Akıllı Ödev Sistemi</a>
+      <a href="#ozetcikarma">Özet Çıkarma</a>
+      <a href="#contact">İletişim</a>
+    </nav>
+    <div class="auth-buttons">
+      <a href="#" class="btn girisyap" id="openLoginModal">Giriş Yap</a>
+      <a href="#" class="btn kayitol" id="openRegisterModal">Kayıt Ol</a>
+    </div>
+  </header>
+
+
+
+  <button class="menu-button">
+    <i class="fa-solid fa-bars"></i>
+  </button>
+
+
+<!--anasayfa-->
+<section class="anasayfa" id="anasayfa">
+    <div class="row">
+    <div class="content">
+     
+      <h3>Dijital Eğitimde Yeni Nesil Yaklaşım</h3>
+      <p>
+        Learnest, yapay zeka destekli analiz ve öneri sistemiyle öğrencilerin çalışma alışkanlıklarını geliştirir. 
+        Otomatik ödev değerlendirme, konu eksikliği analizi ve kişiye özel öneriler sunar.
+      </p>
+      <p>
+        Öğrenmenin en verimli halini keşfetmek için şimdi başlayın.
+      </p>
+     
+      <div class="auth-buttons">
+        <a href="#" class="btn kayitol" id="startNowBtn">Hadi Başlayalım! </a> 
+      </div>
+   </div>
+  </div>
+</section>
+
+<!--soru çözümü-->
+<section class="sorucozumu" id="sorucozumu">
+<div class="row">
+<div class="image">
+  <img src="{{ url_for('static', filename='images/resim5.png') }}" alt="slogan2" />
+</div>
+
+<div class="content">
+  <h3>📚 Soru Çözümü </h3>
+  <p>
+    Learnest’in Soru Çözüm Sistemi, öğrencilerin yüklediği soruları yapay zekâ desteğiyle analiz eder ve en doğru çözüm yolunu adım adım sunar.
+  </p>
+  <p>
+    Sadece cevabı vermekle kalmaz; kullanılan yöntemleri açıklar, işlem basamaklarını detaylandırır ve öğrencinin konuyu anlamasını destekleyen açıklayıcı notlar ekler.
+  </p>
+  <a href="sorucozum.html" class="btn sorucoz">📌 Sorularını Anında Çöz!</a>
+ 
+</div>
+</div>
+</section>
+
+<!--akıllı ödev sistemi-->
+<section class="akilliodevsistemi" id=akilliodevsistemi>
+<div class="content">
+<div class="image">
+  <img src="{{ url_for('static', filename='images/resim3.png') }}" alt="slogan2" />
+</div>
+<h3>📝 Akıllı Ödev Sistemi</h3>
+  <p>
+    Learnest’in Akıllı Ödev Sistemi, öğrencilerin yüklediği ödevleri yapay zekâ destekli algoritmalarla analiz eder. Metin içeriği, konu bütünlüğü ve akademik yeterlilik gibi kriterler doğrultusunda kapsamlı bir değerlendirme sunar. Sistem, eksik kazanımları tespit eder ve öğrencinin gelişim alanlarına özel sorular oluşturarak öğrenme sürecini pekiştirir. Böylece öğrenciler sadece geri bildirim almakla kalmaz, aynı zamanda eksiklerini hedefleyen etkili bir tekrar süreciyle desteklenir.
+  </p>
+  <a href="akilliodev.html" class="btn odev">👩‍💻 Ödev Yükle</a>
+</div>
+</div>
+</section>
+
+
+<section class="ozetcikarma" id="ozetcikarma">
+<div class="content">
+<h3>✍🏻 Özet Çıkarma</h3>
+<p> Learnest’in Özet Çıkarma Sistemi, öğrencilerin yüklediği metin içeriklerini yapay zekâ ile analiz ederek en önemli bilgi ve kavramları öne çıkarır. Karmaşık ve uzun metinleri otomatik olarak sadeleştirerek anlaşılır, kısa ve öz özetler oluşturur. Bu sistem sayesinde öğrenciler zaman kaybetmeden konunun ana hatlarını öğrenebilir ve tekrar süreçlerini verimli hale getirebilir.</p>
+<a href="ozetcikarma.html" class="btn metinyukle">📄 Metin Yükle</a>
+</div>
+<div class="row">
+<div class="image">
+  <img src="{{ url_for('static', filename='images/resim6.png') }}" alt="slogan2" />
+</div>
+
+</div>
+</section>
+<section class="contact" id="contact">
+<h1 class="heading">İletişim</h1>
+<div class="row">
+  <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3010.0447315599476!2d28.9783669!3d41.024277299999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab9dd7cc81dd5%3A0x1411365503b6ae46!2zS2FyYWvDtnksIE3DvGV5eWVkemFkZSwgQmV5b8SfbHUvxLBzdGFuYnVs!5e0!3m2!1str!2str!4v1704707616799!5m2!1str!2str"  loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+ <form>
+  <h3>İLETİŞİM İÇİN 
+  </h3>
+  <div class="inputBox">
+      <i class="fas fa-user"></i>
+      <input type="text" placeholder="İsim">
+  </div>
+  <div class="inputBox">
+      <i class="fas fa-envelope"></i>
+      <input type="email" placeholder="Mail">
+  </div>
+  <div class="inputBox">
+      <i class="fas fa-phone"></i>
+      <input type="number" placeholder="İletişim Numarası">
+  </div>
+  <input type="submit" class="btn" value="Gönder">
+
+ </form>
+
+</div>
+
+</section>
+
+
+
+
+  <!-- GİRİŞ YAP MODALI -->
+  <div class="modal login-modal" id="loginModal">
+  <div class="modal-content">
+    <span class="close-button">&times;</span>
+    <h2>Giriş Yap</h2>
+    <form id="loginForm">
+      <input type="email" id="loginEmail" placeholder="E-posta" required>
+      <input type="password" id="loginPassword" placeholder="Şifre" required>
+      <input type="submit" value="Giriş">
+      <p class="signup-link">
+        Kayıtlı değil misin? <a href="#" id="switchToRegister">Kayıt Ol</a>
+      </p>
+    </form>
+  </div>
+</div>
+
+
+  <!-- KAYIT OL MODALI -->
+  <div class="modal register-modal" id="registerModal">
+  <div class="modal-content">
+    <span class="close-register">&times;</span>
+    <h2>Kayıt Ol</h2>
+    <form id="registerForm">
+      <input type="text" id="first_name" placeholder="Adınız" required>
+      <input type="text" id="last_name" placeholder="Soyadınız" required>
+      <input type="text" id="username" placeholder="Kullanıcı Adınız" required>
+      <input type="email" id="registerEmail" placeholder="E-posta" required>
+      <input type="password" id="registerPassword" placeholder="Şifre" required>
+      <input type="password" id="confirmPassword" placeholder="Şifreyi Tekrar Girin" required>
+      <p id="passwordError" style="color: red; display: none;">Şifreler uyuşmuyor!</p>
+      <input type="submit" value="Kayıt Ol">
+      <p class="signup-link">
+        Zaten bir hesabın var mı? <a href="#" id="switchToLogin">Giriş Yap</a>
+      </p>
+    </form>
+  </div>
+</div>
+
+
+  
+  <!-- JAVASCRIPT -->
+  <script>
+    const loginModal = document.getElementById("loginModal");
+    const registerModal = document.getElementById("registerModal");
+
+    const openLoginBtn = document.getElementById("openLoginModal");
+    const openRegisterBtn = document.getElementById("openRegisterModal");
+
+    const closeLoginBtn = document.querySelector(".close-button");
+    const closeRegisterBtn = document.querySelector(".close-register");
+
+    const switchToRegisterLink = document.getElementById("switchToRegister");
+    const switchToLoginLink = document.getElementById("switchToLogin");
+
+    // Modal Aç
+    openLoginBtn.addEventListener("click", e => {
+      e.preventDefault();
+      loginModal.classList.add("active");
+      registerModal.classList.remove("active");
+    });
+
+    openRegisterBtn.addEventListener("click", e => {
+      e.preventDefault();
+      registerModal.classList.add("active");
+      loginModal.classList.remove("active");
+    });
+
+    // Modal Kapat
+    closeLoginBtn.addEventListener("click", () => loginModal.classList.remove("active"));
+    closeRegisterBtn.addEventListener("click", () => registerModal.classList.remove("active"));
+
+    window.addEventListener("click", e => {
+      if (e.target === loginModal) loginModal.classList.remove("active");
+      if (e.target === registerModal) registerModal.classList.remove("active");
+    });
+
+    // Modal Geçişleri
+    switchToRegisterLink.addEventListener("click", e => {
+      e.preventDefault();
+      loginModal.classList.remove("active");
+      registerModal.classList.add("active");
+    });
+
+    switchToLoginLink.addEventListener("click", e => {
+      e.preventDefault();
+      registerModal.classList.remove("active");
+      loginModal.classList.add("active");
+    });
+
+    // Şifre Eşleşme Kontrolü
+    document.getElementById("registerForm").addEventListener("submit", function (e) {
+      const pw = document.getElementById("password").value;
+      const cpw = document.getElementById("confirmPassword").value;
+      const errorMsg = document.getElementById("passwordError");
+
+      if (pw !== cpw) {
+        e.preventDefault();
+        errorMsg.style.display = "block";
+      } else {
+        errorMsg.style.display = "none";
+      }
+    });
+
+
+    //hadi başlayalım
+    const startNowBtn = document.getElementById("startNowBtn");
+
+startNowBtn.addEventListener("click", e => {
+  e.preventDefault();
+  registerModal.classList.add("active");
+  loginModal.classList.remove("active");
+});
+
+  </script>
+</body>
+</html>

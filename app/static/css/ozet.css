@@ -1,0 +1,170 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+}
+
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+
+/* Başlık */
+.nav-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #004080;
+  text-align: center;
+}
+
+
+
+/* Logo Tasarımı Başlangıç */
+.logo {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+}
+
+/* Logo */
+
+.logo img {
+  height: 6rem;
+  width: auto;
+  border-radius: 25px;
+  margin-right: 1rem;
+}
+.logo span {
+  color: #004080;
+  font-size: 1.6rem; /* Daha küçük yazı */
+  font-weight: 600;
+  align-self: center; /* Dikey ortalama */
+  text-align: center;
+  align-items: center;
+}
+
+/* Logo Tasarımı Bitişi */
+
+/* Navbar */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: nowrap;
+  background-color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 0.5rem 7%;
+  border-radius: 20px;
+  margin: 2rem 7%;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.navbar a {
+  font-size: 1.6rem;
+  color: #212529;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid transparent;
+  transition: all 0.2s ease;
+}
+
+.navbar a:hover {
+  border-color: #ff234f;
+  color: #ff234f;
+}
+.navbar a.active {
+  border-bottom: 2px solid #ff234f;
+  color: #ff234f;
+}
+
+.navbar .nav-links {
+  list-style: none;
+}
+
+
+
+/* Sayfa içerik*/
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("images/arkaplan3.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.2; 
+  z-index: -1;
+  pointer-events: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: column; 
+  gap: 30px;
+  padding: 0 7%;
+  margin-bottom: 50px;
+}
+
+/* Sol Panel */
+.left-panel {
+  flex: 1;
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.left-panel textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  resize: vertical;
+  margin-bottom: 10px;
+}
+
+.left-panel input[type="file"] {
+  margin-bottom: 10px;
+}
+
+.left-panel button {
+  background-color: #ff234f;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.left-panel button:hover {
+  background-color: #cc1c3f;
+}
+
+/* Sağ Panel */
+.right-panel {
+  flex: 1.5;
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.summary-box {
+  background-color: #f8f9fa;
+  border-left: 5px solid #ff234f;
+  padding: 15px;
+  border-radius: 10px;
+  line-height: 1.6;
+  margin-top: 10px;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Akıllı Ödev Sistemi</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/akilli-odev.css') }}">
+    <script src="{{ url_for('static', filename='js/base.js') }}"></script>
+</head>
+
+
+<body>
+
+    <nav class="navbar">
+        <div class="nav-left">
+          <a href="#" class="logo">
+            <img src="{{ url_for('static', filename='images/logo1.png') }}" alt="logo" />
+          </a>
+        </div>
+
+        <div class="nav-center">
+            <h1 class="nav-title">Akıllı Ödev</h1>
+          </div>
+    
+          <div class="nav-right">
+            <ul class="nav-links">
+              <a href="index.html">Anasayfa</a>
+            </ul>
+          </div>
+        </nav>
+    
+
+  <div class="container">
+    <div class="left-panel">
+      <h2>Ödev Metnini Yükle</h2>
+      <textarea placeholder="Ödev metninizi buraya yapıştırın veya dosya yükleyin..." rows="10"></textarea>
+      <input type="file">
+      <button>Analiz Et</button>
+    </div>
+
+    <div class="right-panel">
+      <div class="card error-box">
+        <h3>❌ Hatalar</h3>
+       
+
+<!--    <ul> <li>Yetersiz açıklama: if-else yapısı</li>
+          <li>Yazım hatası: “fonkisyon” yerine “fonksiyon”</li>
+        </ul>-->
+
+      
+      </div>
+
+      <div class="card missing-box">
+        <h3>⚠️ Eksik Konular</h3>
+      <!--  <ul>
+          <li>Döngüler (for, while)</li>
+          <li>Karar yapıları</li>
+        </ul>
+        -->
+      </div>
+
+      <div class="card links-box">
+        <h3>📚 Önerilen Kaynaklar</h3>
+       <!-- <ul>
+          <li><a href="https://www.youtube.com/watch?v=..." target="_blank">Karar Yapıları - Video</a></li>
+          <li><a href="https://www.btkakademi.gov.tr" target="_blank">BTK Akademi: Python Giriş</a></li>
+        </ul>
+        -->
+
+      </div>
+    </div>
+  </div>
+</body>
+</html>
